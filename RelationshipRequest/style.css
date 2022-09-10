@@ -60,6 +60,14 @@ body {
   animation: fall 3s linear;
 }
 
+iframe {
+  display: none;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-70%);
+}
+
 @keyframes fall{
   to {
     transform: translateY(105vh);
