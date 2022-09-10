@@ -29,7 +29,7 @@ window.onload = function() {
   
   const yesButton = document.querySelectorAll('button')[0]
   yesButton.addEventListener('click', () => {
-    document.querySelector('span').innerHTML = 'This was you best choice you ever had!'
+    document.querySelector('span').innerHTML = 'Essa foi a melhor escolha que você já fez!'
     yesButton.remove()
     noButton.remove()
     heartColor = '#f00'
